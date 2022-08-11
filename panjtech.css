@@ -122,11 +122,32 @@ nav ul li:hover .sub-menu-1 ul li {
 .Home-pictures {
   display: flex;
   margin-top: 80px;
-  width: 90vw;
+  width: 100% auto;
   height: 80vh;
   justify-content: center;
   padding: 0 0 0 0;
   margin-bottom: 50px;
+  background: url(pictures/pic\ 1.jpg);
+  animation: slide 20s infinite;
+}
+
+@keyframes slide {
+  20%{
+    background: url(pictures/pic\ 1.jpg);
+  }
+  40%{
+    background: url(pictures/pic\ 2.jpg);
+  }
+  60%{
+    background: url(pictures/pic\ 3.jpg);
+  }
+  80%{
+    background: url(pictures/pic\ 4.jpg);
+  }
+  100%{
+    background: url(pictures/pic\ 4.jpg);
+  }
+
 }
 
 .image-home {
