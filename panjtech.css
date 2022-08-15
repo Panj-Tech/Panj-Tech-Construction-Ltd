@@ -107,13 +107,20 @@ nav ul li:hover{
 .Home-pictures {
   display: flex;
   margin-top: 80px;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> c1bf92a1c79ca8651ba79449c2e6493e3da9c3ef
   height: 80vh;
   justify-content: center;
   padding: 0 0 0 0;
   margin-bottom: 50px;
   animation: slide 20s infinite;
+<<<<<<< HEAD
   margin-left: 62px;
   margin-right: 62px;
+=======
+>>>>>>> c1bf92a1c79ca8651ba79449c2e6493e3da9c3ef
 }
 
 @keyframes slide {
@@ -165,6 +172,51 @@ nav ul li:hover{
   height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+<!--Partners-->
+
+.partners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  left: 0px;
+  right: 0px;
+  justify-content: space-between;
+  background-color: beige;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  column-gap: 20px;
+  row-gap: 40px;
+
+}
+
+.partners-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 15px;
+  background-color: aqua;
+}
+
+.partners-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  left: 0px;
+  right: 0px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+>>>>>>> c1bf92a1c79ca8651ba79449c2e6493e3da9c3ef
 footer {
   background-color: #166803;
   bottom: 0;
