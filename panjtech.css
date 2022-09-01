@@ -109,11 +109,11 @@ section {
   width: 300px;
   animation: slide 20s infinite;
   margin:inherit;
-  background: url(pictures/pic\ 1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/*
 @keyframes slide {
   0% {
     background: url(pictures/pic\ 1.jpg);
@@ -140,7 +140,7 @@ section {
   }
 
 }
-
+*/
 
 .image-home {
   width: 100%;
