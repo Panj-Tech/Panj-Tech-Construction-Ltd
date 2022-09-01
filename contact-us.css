@@ -1,42 +1,54 @@
-.contact-us-title {
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px;
-  border-style: dashed;
-  border-color: rgb(10, 82, 10);
-  padding-top: 6px;
-  padding-bottom: 6px;
-  margin-bottom: 15px;
-  word-spacing: 2.5px;
-  line-height: 1.9;
-  margin-top: 100px;
+* {
+  padding: 0px;
+  margin: 0px 0px;
+  background-color: rgb(248, 248, 236);
+  font-family: 'Century gothic';
 }
 
-.p-o-box {
+.services-offered-details11 {
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  column-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
   align-items: center;
-  flex: 1;
-  justify-content: space-around;
-  word-spacing: 2.5px;
-  line-height: 1.9;
-  font-size: 18px;
-  margin-left: 22px;
-  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  max-width: 500px;
 }
 
-.contact {
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.details11 {
+  color: rgb(26, 24, 24);
+  align-items: center;
   word-spacing: 2.5px;
-  line-height: 1.9;
+  line-height: 1.5;
   font-size: 18px;
-  margin-top: 0px;
-  font-size: 18px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  flex-grow: 2;
 }
+
+.details11 h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.details11 h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.details11 p {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+}
+
