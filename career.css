@@ -3,8 +3,8 @@
 }
 .career1 {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  padding: 0 25px;
   max-width: 800px;
   align-items: center;
   text-align: center;
@@ -26,25 +26,26 @@
   padding-top: 6px;
   padding-bottom: 6px;
   margin-bottom: 15px;
-  word-spacing: 2.5px;
-  line-height: 1.9;
+  word-spacing: 1.5px;
+  line-height: 1.5;
   margin-top: 100px;
   width: 100%;
 }
 
 .career-description {
   align-items: center;
-  word-spacing: 2.5px;
-  line-height: 1.9;
+  word-spacing: 1.5px;
+  line-height: 1.5;
   font-size: 18px;
   margin-bottom: 15px;
   text-align: justify;
 }
 
 .career {
-  word-spacing: 2.5px;
-  line-height: 1.9;
+  word-spacing: 1.5px;
+  line-height: 1.5;
   font-size: 18px;
+  margin-top: 10px;
   border-top: 1px;
   border-left: 0;
   border-right: 0;  
@@ -54,8 +55,13 @@
 }
 
 .career-info {
-  word-spacing: 2.5px;
-  line-height: 1.9;
+  word-spacing: 1.5px;
+  line-height: 1.5;
   font-size: 18px;
   text-align: center;
+  padding-top: 20px;
+}
+
+.info-2 {
+  margin-top: 20px;
 }
