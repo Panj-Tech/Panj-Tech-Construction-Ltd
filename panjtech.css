@@ -200,4 +200,6 @@ footer {
 footer p {
   background-color: #1a7905;
   font-style: oblique;
+  padding-left: 20px;
+  padding-right: 20px;
 }
