@@ -7,77 +7,114 @@
 
 .header-bar {
   height: 60px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 100;
   background-color: #1a7905;
-
 }
 
 .Logo-details {
   display: flex;
   background-color: #1a7905;
+  box-sizing: border-box;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .Co-logo {
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
-  margin-left: 10px;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-width: 0.1px;
   border-style: solid;
-  border-radius: 54px;
+  border-radius: 50px;
+  margin-left: 10px;
+  align-items: center;
 }
 
 .company-name {
-  display: flex;
-  flex: 1;
   align-items: center;
-  width: 100%;
   padding-left: 15px;
   color: white;
   background-color: #1a7905;
+  justify-items: center;
+  display: flex;
+  float: left;
 }
 
 .company-name span {
   background-color: #1a7905;
 }
 
-.company-name span b {
-  background-color: #1a7905;
-}
 
+@media only screen and (max-width: 500px) {
+  .header-bar {
+    height: 120px;
+    display: block;
+  }
+
+  .Logo-details {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .Co-logo {
+    margin-left: 0px;
+
+  }
+
+  .navigation-bar {
+   
+    background-color: red;
+    display: block;
+    right: 0;
+
+  }
+
+  .navigation-bar nav {
+    padding-left: 10px;
+    float: left;
+
+  }
+
+
+}
 
 /*Targeting whole navigation bar*/
 .navigation-bar {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  box-sizing: border-box;
   background-color: #1a7905;
   margin-left: 0px;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 
 .navigation-bar nav {
-
+  width: 100%;
   background-color: #1a7905;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .navigation-bar nav ul li {
-  display: flex;
   list-style: none;
   float: left;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-top: 0;
+  padding-left: 5px;
+  padding-right: 45px;
   background-color: #1a7905;
 }
 
@@ -85,14 +122,16 @@ nav ul li a {
   text-decoration: none;
   font: 16px;
   color: white;
-  padding-left: 35x;
+  padding-left: 105x;
   background-color: #1a7905;
 
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   background: #2bab0d;
   border-radius: 3px;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .Home-pictures {
